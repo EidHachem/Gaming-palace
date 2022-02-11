@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header-footer-color{
+    margin: 0;
+    background-color: #1f2937;
+    
+}
+
+.nav-bar{
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    text-decoration: none;
+
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.nav-item a {
+
+text-decoration: none;
+color: #e5e7eb;
+font-size: 18px;
+
+}
+    
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    padding-bottom: 100px;
+    height: auto:
+    width: fit-content;
+    
+}
+
+#first-title {
+    
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.about {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    
+    background-color:#3882F6; 
+    width: 150px;
+    border-radius: 0.15cm;
+    border-style: hidden;
+    margin: 1em;
+    color: #E5E7EB;
+    
+}
+#main-img {
+    max-width: auto;
+    height: 500px;
+}
+
+.products-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.products-images {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 0.15cm;
+    border-color: #3882F6;
+}
+.products-info {
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    color: #3882F6;
+    padding-bottom: 150px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 120px;
+    margin-bottom: 50px;
+}
+
+.auther {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+}
+
+.subscribe {
+    margin: 150px;
+    display: flex;
+    background-color: #3a68b3;
+    color: #E5E7EB;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0.18cm;
+    font-size: large;
+}
+
+.sign-up-bottom {
+    background-color: #3a68b3;
+    color: #E5E7EB;
+    height: 40px;
+    width: 150px;
+    border-radius: 0.15cm;
+    padding: 5px 20px;
+    border-style: ridge;
+    margin: 50px 20px 100px 150px;
+   
+}
